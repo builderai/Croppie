@@ -368,7 +368,7 @@
         boundary = self.elements.boundary = document.createElement('div');
         viewport = self.elements.viewport = document.createElement('div');
         img = self.elements.img = document.createElement('img');
-        img.src = "../../../assets/images/loader_logo.gif";
+        img.src = "../../../assets/images/spinner.gif";
         overlay = self.elements.overlay = document.createElement('div');
 
         if (self.options.useCanvas) {
